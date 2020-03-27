@@ -1,15 +1,3 @@
-/**
- * @name Deserialization of user-controlled data
- * @description Deserializing user-controlled data may allow attackers to
- *              execute arbitrary code.
- * @kind path-problem
- * @problem.severity error
- * @precision high
- * @id java/unsafe-deserialization
- * @tags security
- *       external/cwe/cwe-502
- */
-
 import java
 import semmle.code.java.dataflow.FlowSources
 import semmle.code.java.security.UnsafeDeserialization
